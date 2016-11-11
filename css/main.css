@@ -1,0 +1,57 @@
+*{
+	margin : 0;
+	padding: 0;
+	border: 0;
+}
+body{background-color: #00A3EE;}
+#box{
+	width: 500px;
+	height: 400px;
+	border: 1px solid #000;
+	overflow: hidden;
+	position:relative;
+	margin: 0 auto;
+	background: url(../img/bg1.jpg);
+	background-size: cover;
+	}
+.lrc{
+	position:absolute;
+	left:0;
+	top:0;
+	width: 500px;
+	overflow: auto;
+	color:#green;
+}
+
+.lrc p{
+	line-height: 24px;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.lrc p.active{
+	color : red;
+}
+
+.music-list{
+	line-height: 30px;
+	font-weight: bold;
+	width:500px;
+	margin: 20px auto;
+}
+.music-list > li{
+	border: 1px solid #ff0;
+	display: block;
+	background-color:greenyellow;
+	color:green;
+	font-family: "微软雅黑";
+	margin:4px 0;
+	text-indent: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.music-list > li.active{
+	color: #FF0;
+	font-size: 18px;
+}
+.medio{width: 500px;margin:0 auto;text-align: center;}
